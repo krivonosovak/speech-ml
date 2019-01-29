@@ -16,5 +16,5 @@ based on the noisifier.noisifier.Noisifier class. Here is a short example:
 terminal 
 
 	python add_noise.py —-indir ‘audio_test’
-			 		 	--ndirs ‘bg_noise/FRESOUND_BEEPS_gsm bg_noise/FRESOUND_BEEPS_gsm’
-			 		 	—-a 0.005 —-out ‘audio_test_noise’
+			    --ndirs ‘bg_noise/FRESOUND_BEEPS_gsm bg_noise/FRESOUND_BEEPS_gsm’
+			    —-a 0.005 —-out ‘audio_test_noise’
