@@ -18,8 +18,8 @@ n.add_noise(noise_dirs=['bg_noise/FRESOUND_BEEPS_gsm', 'bg_noise/FRESOUND_BEEPS_
 
 terminal:
 ```bash
-python add_noise.py —-indir ‘audio_test’
-			    --ndirs ‘bg_noise/FRESOUND_BEEPS_gsm bg_noise/FRESOUND_BEEPS_gsm’
-			    —-a 0.005 —-out ‘audio_test_noise’
+python add_noise.py —-indir audio_test
+			    --ndirs bg_noise/FRESOUND_BEEPS_gsm bg_noise/FRESOUND_BEEPS_gsm
+			    —-a 0.005 —-out audio_test_noise
 ```
 	
